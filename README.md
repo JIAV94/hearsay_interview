@@ -22,11 +22,12 @@ cd hearsay_interview
 docker-compose up --build
 
 
-The application will be accessible at `http://localhost:8000/`.
+The application will be accessible at `http://localhost:8000/api/sortkeys`.
 
 ## Testing the API
 
-Use `curl` or Postman to send a POST request to `http://localhost:8000/sort/` with the appropriate JSON payload.
+Use `curl`, Postman to send a POST request to `http://localhost:8000/api/sortkeys` with the appropriate JSON payload.
+Or you can input the json data directly on the GUI provided by DRF directly on a web browser using the same URI `http://localhost:8000/api/sortkeys`.
 
 Example `curl` command:
 
