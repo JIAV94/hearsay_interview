@@ -15,7 +15,7 @@ This application provides a RESTful API to sort keys from a JSON payload.
 https://github.com/JIAV94/hearsay_interview
 
 2. Navigate to the project directory:
-cd hearsay_interview/hearsay
+cd hearsay_interview
 
 
 3. Build and run the Docker container:
